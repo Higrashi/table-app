@@ -1,0 +1,43 @@
+.control-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    min-height: 100px;
+    /* border: 1px solid lightblue; */
+    margin: 0px 1px;
+    background-color: rgb(248, 245, 245);
+}
+
+select {
+    width: 225px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	box-shadow: 0 2px 0 white;
+	border-radius: 2px;
+    border-radius: 2px;
+}
+
+.control-panel span {
+    display: block;
+    color: red;
+    text-align: start;
+    padding: 0px 10px;
+}
+
+.refresh-btn {
+    border: none;
+    text-align: center;
+    
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    .control-panel {
+        width: 95%;
+    }
+  }

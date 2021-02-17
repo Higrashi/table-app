@@ -1,0 +1,44 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.disabled{
+    background: #dededf;
+    pointer-events: none;
+}
+
+.active{
+    background: #5f6372;
+  }
+
+ul{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+
+li{
+    background: #353841;
+    padding: 10px 15px;
+    margin-right: 4px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 1.1rem;
+    min-width: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+li:not(.active):not(.disabled){
+    cursor: pointer;
+}
+
+li:not(.active):not(.disabled):hover{
+    background: #5f6372;
+}
+li:not(.active):not(.disabled):active{
+   background: #3d3e47;
+}

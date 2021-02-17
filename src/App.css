@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 4rem;
+ 
+}
+
+input {
+  margin: 0px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 5px;
+}
+
+button {
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #171A2B;
+  height: 40px;
+  line-height: 38px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background:#3c415a;
+}
+
+button:active {
+  background:#1d1f29;
+}

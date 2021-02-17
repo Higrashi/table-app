@@ -1,0 +1,14 @@
+.user-presentation {
+    width: 70%;
+    text-align: start;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-presentation span {
+    display: inline-block;
+    width: 70%;
+    margin: 10px 0px;
+}
+

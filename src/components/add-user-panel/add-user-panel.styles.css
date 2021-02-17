@@ -1,0 +1,54 @@
+.add-user-panel {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 200px;
+    /* border: 2px solid lightgrey; */
+   
+    transition: .3s;
+}
+
+.add-btn {
+    background-color: rgb(61, 92, 61);
+    margin-top: 30px;
+    
+}
+
+.disabled-btn {
+    cursor: not-allowed;
+    background-color: grey;
+}
+
+.error-btn {
+    margin-top: 0px;
+}
+/* .active-panel {
+    transform: translateY(0);
+    height: 200px;
+} */
+
+label {
+    text-align: start;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+
+.user-panel-box {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.user-panel-box p {
+    color: red;
+    font-size: .8rem;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .add-user-panel {
+        width: 95%;
+    }
+  }
