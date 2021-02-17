@@ -1,3 +1,11 @@
+# О приложении
+1. Рузльтат можно посмотреть здесь => (https://table-app-2a112.firebaseapp.com/)
+
+2. Компоненты протестировал с помощью Enzyme
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
